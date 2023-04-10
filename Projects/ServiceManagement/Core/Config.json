@@ -1,0 +1,40 @@
+[
+    {
+        "id" : 1,
+        "name" : "LAMVT1FINTECH",
+        "services" : [
+            { 
+                "id" : 1,
+                "name" : "MBF.BillingAccount.UserAuthen"
+            }
+        ],
+        "iis" : [
+            {
+                "id": 1,
+                "name": "ServiceMonitor",
+                "pool": "ServiceMonitor"
+            },
+            { 
+                "id" : 2,
+                "name" : "SharedFiles",
+                "pool" : "SharedFiles"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "s01",
+        "services": [
+            {
+                "id": 1,
+                "name": "MBF.BillingAccount.UserAuthen"
+            }
+        ],
+        "iis": [
+            {
+                "id": 1,
+                "name": "AccountApi"
+            }
+        ]
+    }
+]

@@ -1,0 +1,6 @@
+{
+    "SqlInstance": "LAMVT1FINTECH\\SQL2019",
+    "Database": "SMDB",
+    "RootUrl": "https://localhost:44358",
+    "RootModulePath": "D:\\Repo\\Personal\\Github\\DevOps\\Powershell\\Modules"
+}

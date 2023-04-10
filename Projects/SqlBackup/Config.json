@@ -1,0 +1,7 @@
+{
+    "SqlInstance" : "LAMVT1FINTECH\\SQL2019",
+    "SqlBackupDir" : "D:\\Database Backup",
+    "SqlDbExclude" : "AdventureWorksDW2019,StackOverflow2013,StackOverflow",
+    "ValidateClusterNode" : "MBFHN-WALLETDB2,MBFHN-WALLETDB1",
+    "ValidateBackupType" : "F,D,L"
+}

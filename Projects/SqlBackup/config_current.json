@@ -1,0 +1,33 @@
+{
+    "backup_config" : {
+        "sql_instance" : "CLUSTER-LAMVT\\SQL2019",
+        "sql_backup_dir" : "E:\\Database Backup\\2019",    
+        "sql_login" : "lamvt",
+        "sql_password" : "lamvt",    
+        "cert_name" : "BackupCert",
+        "cert_algorithm" : "AES256",
+        "databases" : ["DBATools"]
+    },
+    "history_config" : {
+        "sql_instance" : "CLUSTER-LAMVT\\SQL2019",
+        "sql_login" : "lamvt",
+        "sql_password" : "lamvt",
+        "database" : "ReplicationDB"
+    },
+    "ftp_config" : {
+        "server_url" : "",
+        "port" : 21,
+        "user" : "",
+        "pass" : ""
+    },
+    "mail_config" : {
+        "from" : "",
+        "to" : "",
+        "subject" : "",
+        "body" : "",
+        "server" : "",
+        "port" : "",
+        "user" : "",
+        "pass" : ""
+    }
+}
