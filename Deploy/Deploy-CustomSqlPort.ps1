@@ -11,9 +11,7 @@ $ServerList = @([PSCustomObject]@{
     Ports = $Ports
 })
 
-$Params = ($RootPath)
-$ServerList | Start-RSJob -Throttle $(($ServerList | Measure-Object).Count) -ArgumentList $Params -ScriptBlock {
-    Param($RootPath)
+$ServerList | Start-RSJob -Throttle $(($ServerList | Measure-Object).Count) -ScriptBlock {
     $Session = New-PSSession $_.ServerName   
     Invoke-Command -Session $Session -ArgumentList $_.Ports -Command { 
         Param($Ports)
